@@ -1,6 +1,7 @@
 #读取压缩包 books.zip中的文本文件，将每个文件的中文和英语分别抽取出来，
 #并分别统计每个文件中不同中文词汇与不同英文单词出现的次数，
 #将统计结果保存到csv文件中，每个txt文件对应一个csv文件结果。
+import re
 import os
 import os.path
 import jieba#用于中文分词
